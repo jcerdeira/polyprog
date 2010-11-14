@@ -7,5 +7,8 @@ public interface ITwitter {
 	void addTwitt(Twitt t);
 	
 	List<Twitt> getAll();
+	
+	String getImplementation();
+	
 }
 
