@@ -2,10 +2,28 @@
   <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
   <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
   <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/ant/ant/1.7.1/ant-1.7.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/ant/ant-launcher/1.7.1/ant-launcher-1.7.1.jar"/>
   <classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" sourcepath="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/groovy/maven/gmaven-common/1.0-rc-3/gmaven-common-1.0-rc-3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/groovy/maven/feature/gmaven-feature-api/1.0-rc-3/gmaven-feature-api-1.0-rc-3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/groovy/maven/feature/gmaven-feature-support/1.0-rc-3/gmaven-feature-support-1.0-rc-3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/groovy/maven/runtime/gmaven-runtime-1.5/1.0-rc-3/gmaven-runtime-1.5-1.0-rc-3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/groovy/maven/runtime/gmaven-runtime-api/1.0-rc-3/gmaven-runtime-api-1.0-rc-3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/groovy/maven/runtime/gmaven-runtime-default/1.0-rc-3/gmaven-runtime-default-1.0-rc-3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/groovy/maven/runtime/gmaven-runtime-support/1.0-rc-3/gmaven-runtime-support-1.0-rc-3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/groovy/groovy-all/1.7.5/groovy-all-1.7.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/groovy/groovy-all-minimal/1.5.6/groovy-all-minimal-1.5.6.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jline/jline/0.9.94/jline-0.9.94.jar"/>
+  <classpathentry kind="var" path="M2_REPO/jstl/jstl/1.2/jstl-1.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/plexus/plexus-utils/1.5.5/plexus-utils-1.5.5.jar"/>
   <classpathentry kind="src" path="/polyglot-api"/>
+  <classpathentry kind="src" path="/polyglot-groovy-impl"/>
   <classpathentry kind="src" path="/polyglot-java-impl"/>
+  <classpathentry kind="var" path="M2_REPO/com/thoughtworks/qdox/qdox/1.6.3/qdox-1.6.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.5.0/slf4j-api-1.5.0.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/springframework/spring-beans/2.5.6/spring-beans-2.5.6.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/springframework/spring-context/2.5.6/spring-context-2.5.6.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/springframework/spring-context-support/2.5.6/spring-context-support-2.5.6.jar"/>

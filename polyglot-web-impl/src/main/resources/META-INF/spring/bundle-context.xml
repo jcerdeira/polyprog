@@ -8,8 +8,11 @@
        configuration file so that this file can easily be used
        for integration testing outside of an OSGi environment -->
 
- 
+ <!-- 
   <bean name="twitter" class="org.realsoftwarematters.polyglot.java.Twitter" />
+  -->
+  
+  <bean name="twitter" class="org.realsoftwarematters.polyglot.groovy.Twitter" />
  
  
 </beans>

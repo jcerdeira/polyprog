@@ -1,15 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-    Generated from archetype; please customize.
--->
-
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.realsoftwarematters.polyglot</groupId>
     <artifactId>polyglot-groovy-impl</artifactId>
-    <name>Example Project</name>
+    <name>Groovy Twitter Project</name>
     <version>0.1-SNAPSHOT</version>
 
     <dependencies>
@@ -20,11 +15,16 @@
         </dependency>
         
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <version>1.7.5</version>
         </dependency>
+        <dependency>
+        	<groupId>org.realsoftwarematters.polyglot</groupId>
+        	<artifactId>polyglot-api</artifactId>
+        	<version>0.1-SNAPSHOT</version>
+        </dependency>
+        
     </dependencies>
 
     <build>
