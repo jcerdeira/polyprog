@@ -10,8 +10,10 @@
 
  <!-- 
   <bean name="twitter" class="org.realsoftwarematters.polyglot.java.Twitter" />
-  -->
   
+  <bean name="twitter" class="org.realsoftwarematters.polyglot.groovy.Twitter" />
+  -->
+
   <bean name="twitter" class="org.realsoftwarematters.polyglot.groovy.Twitter" />
  
  

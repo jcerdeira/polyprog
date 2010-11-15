@@ -19,6 +19,7 @@ public class TwitterController {
 		
 		model.addAttribute("list", twitter.getAll());
 		model.addAttribute("implementation", twitter.getImplementation());
+		model.addAttribute("language", twitter.getImplementation());
 		
 		return "index";
 	}
@@ -26,13 +27,10 @@ public class TwitterController {
 	@RequestMapping("/add.html")
 	public String add(@RequestParam("twitt") String twitt,@RequestParam("author") String author, ModelMap model) {
 		
-		System.out.println("twitt : " + twitt);
-		System.out.println("author : " + author);
-		
-		
 		twitter.addTwitt(new Twitt(twitt,author));
 		model.addAttribute("list", twitter.getAll());
 		model.addAttribute("implementation", twitter.getImplementation());
+		model.addAttribute("language", twitter.getImplementation());
 		
 		return "index";
 	}

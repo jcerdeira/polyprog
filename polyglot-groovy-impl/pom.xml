@@ -24,7 +24,6 @@
         	<artifactId>polyglot-api</artifactId>
         	<version>0.1-SNAPSHOT</version>
         </dependency>
-        
     </dependencies>
 
     <build>
