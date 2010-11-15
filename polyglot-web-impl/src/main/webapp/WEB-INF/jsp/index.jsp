@@ -39,7 +39,7 @@
          
 	</table>
     
-		<INPUT type="submit" value="send" >
+		<INPUT type="submit" value="add" >
 	</form:form>
 </center>
 
@@ -47,8 +47,8 @@
 <center>
 <table>
 <c:forEach var="twitt" items="${list}">
-	<tr><td>${twitt.message}</td><tr>
-	<tr><td>${twitt.author}</td></tr>
+	<tr><td><textarea disabled="disable" readonly="readonly" rows="5" cols="80">${twitt.message}</textarea></td><tr>
+	<tr><td><font size=2>Author: ${twitt.author}</font></td></tr>
 	<tr><td><br></br></td></tr>
 </c:forEach>
 </table>
