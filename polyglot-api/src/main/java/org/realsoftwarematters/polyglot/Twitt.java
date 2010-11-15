@@ -5,6 +5,11 @@ public class Twitt {
 	public String message;
 	public String author;
 	
+	public Twitt(String message, String author){
+		this.message=message;
+		this.author=author;
+	}
+	
 	public String getMessage() {
 		return message;
 	}
